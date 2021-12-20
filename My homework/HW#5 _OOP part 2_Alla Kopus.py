@@ -82,8 +82,8 @@ class AddressBookDataClass:
 # 7
 from collections import namedtuple
 
-AddressBookDataClass = namedtuple('AddressBookDataClass', ['key', 'name', 'phone_number', 'address', 'email', 'birthday', 'age'])
-AddressBookDataClass_1 = AddressBookDataClass(10, 'Alla', 8648477, 'Mykolaiv', 'abc@ukr.net', '15/10/1987', 35)
+addressBookDataClass = namedtuple('AddressBookDataClass', ['key', 'name', 'phone_number', 'address', 'email', 'birthday', 'age'])
+AddressBookDataClass_1 = addressBookDataClass(10, 'Alla', 8648477, 'Mykolaiv', 'abc@ukr.net', '15/10/1987', 35)
 print(AddressBookDataClass_1)
 # AddressBookDataClass(key=10, name='Alla', phone_number=8648477, address='Mykolaiv', email='abc@ukr.net', birthday='15/10/1987', age=35)
 
