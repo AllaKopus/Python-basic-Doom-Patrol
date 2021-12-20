@@ -83,9 +83,9 @@ class AddressBookDataClass:
 from collections import namedtuple
 
 addressBookDataClass = namedtuple('AddressBookDataClass', ['key', 'name', 'phone_number', 'address', 'email', 'birthday', 'age'])
-AddressBookDataClass_1 = addressBookDataClass(10, 'Alla', 8648477, 'Mykolaiv', 'abc@ukr.net', '15/10/1987', 35)
+AddressBookDataClass_1 = addressBookDataClass(10, 'Alla', 8648477, 'Mykolayiv', 'abc@ukr.net', '15/10/1987', 35)
 print(AddressBookDataClass_1)
-# AddressBookDataClass(key=10, name='Alla', phone_number=8648477, address='Mykolaiv', email='abc@ukr.net', birthday='15/10/1987', age=35)
+# AddressBookDataClass(key=10, name='Alla', phone_number=8648477, address='Mykolayiv', email='abc@ukr.net', birthday='15/10/1987', age=35)
 
 # 8
 class AddressBook:
@@ -102,9 +102,9 @@ class AddressBook:
     def __str__(self):
         return f'AddressBook {self.key}, {self.name}, {self.phone_number}, {self.address}, {self.email}, {self.birthday}, {self.age}'
 
-AddressBookDataClass_2 = AddressBook(10, 'Alla', 8648477, 'Mykolaiv', 'abc@ukr.net', '15/10/1987', 35)
+AddressBookDataClass_2 = AddressBook(10, 'Alla', 8648477, 'Mykolayiv', 'abc@ukr.net', '15/10/1987', 35)
 print(AddressBookDataClass_2)
-# AddressBook 10, Alla, 8648477, Mykolaiv, abc@ukr.net, 15/10/1987, 35
+# AddressBook 10, Alla, 8648477, Mykolayiv, abc@ukr.net, 15/10/1987, 35
 
 # 9
 class Person:
